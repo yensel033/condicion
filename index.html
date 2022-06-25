@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <h1><em><b>cual es el numero mayor </b></em></h1>
+ 
+ <p>
+    numro 1<input type="number" maxlength="50" id="number1" >
+ </p>
+<p>
+    numero 2 <input type="number"   maxlength="50" id="number2" >
+
+</p>
+
+<p>
+     <input type="button" value="verificar" id="button">
+</p>
+
+    <script>
+
+  const formNunber1 = document.getElementById("number1");
+  const formNumber2 = document.getElementById("number2");
+  const formButton = document.getElementByid("button");
+
+    buttonVerificar.addEvenlistener('click', function() {
+        const number1 = parseInt(numberOne.value);
+        const number2 = parseInt(numberTwo.value);
+
+        if(number1 > number2){
+            result.innerHTML = 'El numero' + number1 + 'es mayor que' + number2
+
+console.log(result.innerHTML);
+        }
+    
+
+    
+
+    })
+    </script>
+</body>
+</html>
